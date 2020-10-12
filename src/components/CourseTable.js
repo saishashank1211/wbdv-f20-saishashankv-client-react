@@ -15,7 +15,7 @@ export default class Coursetable extends React.Component{
         this.CourseService = new CourseService()
         this.CourseService=this.CourseService.bind(this)
         this.setState({courses:this.CourseService.findAllCourses})
-    }git
+    }
 
     handleClick(){
         this.setState(prevState => {
