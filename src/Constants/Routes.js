@@ -1,0 +1,1 @@
+export const Create = "https://wbdv-generic-server.herokuapp.com/api/001027719/courses"
